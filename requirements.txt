@@ -1,4 +1,4 @@
 langchain-community
 beautifulsoup4
-chromadb
+chromadb==0.4.17
 pysqlite3
