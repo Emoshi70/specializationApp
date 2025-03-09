@@ -21,7 +21,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 URL = ["https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-computer-engineering",
            "https://www.indeed.com/career-advice/career-development/computer-engineering-specialization",
            "https://www.reddit.com/r/AskEngineers/comments/k5pfn1/what_are_the_main_computer_engineering_subfields/",
-           "https://www.pup.edu.ph/ce/bscpe"
+           "https://www.pup.edu.ph/ce/bscpe",
+       "https://www.indeed.com/career-advice/career-development/computer-engineering-degrees"
           ]
 
 #load the data
@@ -48,8 +49,10 @@ if clicked and query:
     retriever = vectorstore.as_retriever(search_type="mmr",search_kwargs={"k":3})
     docs_rel = retriever.get_relevant_documents(query)
     #print(docs_rel)
-
-
+    prompt = f"""
+    {query}
+    """
+'''
     prompt = f"""
     <|system|>>
     You are an AI Assistant that follows instructions extremely well.
@@ -59,7 +62,7 @@ if clicked and query:
     </s>
     <|assistant|>
     """
-
+'''
 
     from langchain.llms import HuggingFaceHub
     from langchain.chains import RetrievalQA
