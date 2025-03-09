@@ -22,8 +22,11 @@ if clicked:
     import chromadb.api
 
     chromadb.api.client.SharedSystemClient.clear_system_cache()
-    URL = ["https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-computer-engineering"
-       ]
+    URL = ["https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-computer-engineering",
+           "https://www.indeed.com/career-advice/career-development/computer-engineering-specialization",
+           "https://www.reddit.com/r/AskEngineers/comments/k5pfn1/what_are_the_main_computer_engineering_subfields/",
+           "https://www.pup.edu.ph/ce/bscpe"
+          ]
 
     #load the data
     data = WebBaseLoader(URL)
