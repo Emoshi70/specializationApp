@@ -36,8 +36,8 @@ chunking = text_splitter.split_documents(content)
 
 HF_token = st.text_input("Enter Huggingface Token:", type = "password") #getpass()
 clicked = st.button("Submit", key = 1)
-chromadb.api.client.SharedSystemClient.clear_system_cache()
 if clicked:
+    chromadb.api.client.SharedSystemClient.clear_system_cache()
     query = st.text_input("Enter text prompt related to Specializations (Click submit when ready, do not press enter): ")#"What is Bachelor’s Degree in Computer Engineering?"
 if clicked and query:
            os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
