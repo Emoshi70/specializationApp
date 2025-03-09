@@ -38,11 +38,11 @@ if clicked and query:
     
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=256,chunk_overlap=50)
     chunking = text_splitter.split_documents(content)
-       os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
+    os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
     
-       embeddings = HuggingFaceInferenceAPIEmbeddings(
-           api_key = HF_token,model_name = "BAAI/bge-base-en-v1.5"
-       )
+    embeddings = HuggingFaceInferenceAPIEmbeddings(
+       api_key = HF_token,model_name = "BAAI/bge-base-en-v1.5"
+    )
 
 
     from langchain.vectorstores import Chroma
