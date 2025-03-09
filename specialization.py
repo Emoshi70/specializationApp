@@ -19,10 +19,9 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.llms import HuggingFaceHub
 from langchain.chains import RetrievalQA
 # get your free access token from HuggingFace and paste it here
-URL = ["https://www.quora.com/I-want-to-study-computer-engineering-How-do-you-see-specialization-In-which-countries-do-you-advise-me-to-study-so-I-can-find-a-grant",
-       "https://www.reddit.com/r/ComputerEngineering/comments/1anywuz/need_help_deciding_on_a_specialty_area_for/",
-       "https://www.quora.com/Which-is-better-normal-computer-science-engineering-and-computer-science-engineering-with-some-specialization?top_ans=286529080",
-       "https://www.careervillage.org/questions/889126/i-would-like-to-know-the-course-to-study-to-be-a-computer-engineer"
+URL = ["https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-computer-engineering",
+       "https://www.mapua.edu.ph/pages/academics/fully-online-programs/undergraduate/programs/online-bachelor-of-science-in-computer-engineering"
+
       ]
 
 #load the data
