@@ -31,7 +31,7 @@ from getpass import getpass
 HF_token = st.text_input("Enter Huggingface Token:", type = "password") #getpass()
 clicked = st.button("Submit", key = 1)
 if clicked:
-    query = st.text_input("Enter text prompt related to Specializations (Click submit when ready): ")#"What is Bachelor’s Degree in Computer Engineering?"
+    query = st.text_input("Enter text prompt related to Specializations (Click submit when ready, do not press enter): ")#"What is Bachelor’s Degree in Computer Engineering?"
 
 if clicked and query:
     os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
