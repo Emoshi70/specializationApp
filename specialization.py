@@ -28,7 +28,8 @@ if clicked:
        "https://www.indeed.com/career-advice/career-development/computer-engineering-specialization",
        "https://eee.upd.edu.ph/academics/undergraduate-programs/bs-computer-engineering/",
         "https://www.pup.edu.ph/ce/bscpe",
-        "https://ece.illinois.edu/academics/ugrad/subdisciplines"
+        "https://ece.illinois.edu/academics/ugrad/subdisciplines",
+        "https://www.mccormick.northwestern.edu/electrical-computer/academics/graduate/masters/specializations/"
        ]
 
     #load the data
