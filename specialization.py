@@ -18,29 +18,30 @@ from langchain.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # get your free access token from HuggingFace and paste it here
-HF_token = st.text_input("Enter Huggingface Token:", type = "password") #getpass()
-query = st.text_input("Enter text prompt related to Specializations (Click submit when ready, do not press enter): ")#"What is Bachelor’s Degree in Computer Engineering?"
-clicked = st.button("Submit", key = 1)
-if clicked and query and HF_token:
-    chromadb.api.client.SharedSystemClient.clear_system_cache()
-    URL = ["https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-computer-engineering",
+URL = ["https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-computer-engineering",
            "https://www.indeed.com/career-advice/career-development/computer-engineering-specialization",
            "https://www.reddit.com/r/AskEngineers/comments/k5pfn1/what_are_the_main_computer_engineering_subfields/",
            "https://www.pup.edu.ph/ce/bscpe"
           ]
 
-    #load the data
-    data = WebBaseLoader(URL)
-    #extract the content
-    content = data.load()
-    
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=256,chunk_overlap=50)
-    chunking = text_splitter.split_documents(content)
-    os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
-    
+#load the data
+data = WebBaseLoader(URL)
+#extract the content
+content = data.load()
+
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=256,chunk_overlap=50)
+chunking = text_splitter.split_documents(content)
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
+
+HF_token = st.text_input("Enter Huggingface Token:", type = "password") #getpass()
+clicked = st.button("Submit", key = 1)
+if clicked:
+    query = st.text_input("Enter text prompt related to Specializations (Click submit when ready, do not press enter): ")#"What is Bachelor’s Degree in Computer Engineering?"
+if clicked and query:
     embeddings = HuggingFaceInferenceAPIEmbeddings(
        api_key = HF_token,model_name = "BAAI/bge-base-en-v1.5"
     )
+    chromadb.api.client.SharedSystemClient.clear_system_cache()
 
 
     vectorstore = Chroma.from_documents(chunking, embeddings)
