@@ -1,4 +1,3 @@
-langchain_commnunity
 beautifulsoup4
 chromadb
 langchain_commnunity
