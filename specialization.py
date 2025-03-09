@@ -16,7 +16,8 @@ import chromadb.api
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-
+from langchain.llms import HuggingFaceHub
+from langchain.chains import RetrievalQA
 # get your free access token from HuggingFace and paste it here
 URL = ["https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-computer-engineering",
            "https://www.indeed.com/career-advice/career-development/computer-engineering-specialization",
@@ -35,6 +36,7 @@ chunking = text_splitter.split_documents(content)
 
 HF_token = st.text_input("Enter Huggingface Token:", type = "password") #getpass()
 clicked = st.button("Submit", key = 1)
+chromadb.api.client.SharedSystemClient.clear_system_cache()
 if clicked:
     query = st.text_input("Enter text prompt related to Specializations (Click submit when ready, do not press enter): ")#"What is Bachelor’s Degree in Computer Engineering?"
 if clicked and query:
@@ -42,7 +44,6 @@ if clicked and query:
     embeddings = HuggingFaceInferenceAPIEmbeddings(
        api_key = HF_token,model_name = "BAAI/bge-base-en-v1.5"
     )
-    chromadb.api.client.SharedSystemClient.clear_system_cache()
 
 
     vectorstore = Chroma.from_documents(chunking, embeddings)
@@ -64,8 +65,6 @@ if clicked and query:
     """
 '''
 
-    from langchain.llms import HuggingFaceHub
-    from langchain.chains import RetrievalQA
 
     model = HuggingFaceHub(repo_id="HuggingFaceH4/zephyr-7b-alpha",
                         model_kwargs={"temperature":0.5,
