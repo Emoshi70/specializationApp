@@ -22,11 +22,13 @@ if clicked:
     import chromadb.api
 
     chromadb.api.client.SharedSystemClient.clear_system_cache()
-    URL = ["https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-computer-engineering"
-       "https://www.indeed.com/career-advice/career-development/computer-engineering-specialization"
-       "https://eee.upd.edu.ph/academics/undergraduate-programs/bs-computer-engineering/"
-       "https://www.indeed.com/career-advice/career-development/computer-engineering-specialization"
-       "https://eee.upd.edu.ph/academics/undergraduate-programs/bs-computer-engineering/"
+    URL = ["https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-computer-engineering",
+       "https://www.indeed.com/career-advice/career-development/computer-engineering-specialization",
+       "https://eee.upd.edu.ph/academics/undergraduate-programs/bs-computer-engineering/",
+       "https://www.indeed.com/career-advice/career-development/computer-engineering-specialization",
+       "https://eee.upd.edu.ph/academics/undergraduate-programs/bs-computer-engineering/",
+        "https://www.pup.edu.ph/ce/bscpe",
+        "https://ece.illinois.edu/academics/ugrad/subdisciplines"
        ]
 
     #load the data
