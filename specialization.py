@@ -40,39 +40,39 @@ chromadb.api.client.SharedSystemClient.clear_system_cache()
 if clicked:
     query = st.text_input("Enter text prompt related to Specializations (Click submit when ready, do not press enter): ")#"What is Bachelor’s Degree in Computer Engineering?"
 if clicked and query:
-    os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
-    embeddings = HuggingFaceInferenceAPIEmbeddings(
-       api_key = HF_token,model_name = "BAAI/bge-base-en-v1.5"
-    )
-
-
-    vectorstore = Chroma.from_documents(chunking, embeddings)
-    retriever = vectorstore.as_retriever(search_type="mmr",search_kwargs={"k":3})
-    docs_rel = retriever.get_relevant_documents(query)
-    #print(docs_rel)
-    prompt = f"""
-    {query}
-    """
-'''
-    prompt = f"""
-    <|system|>>
-    You are an AI Assistant that follows instructions extremely well.
-    </s>
-    <|user|>
-    {query}
-    </s>
-    <|assistant|>
-    """
-'''
-
-
-    model = HuggingFaceHub(repo_id="HuggingFaceH4/zephyr-7b-alpha",
+           os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
+           embeddings = HuggingFaceInferenceAPIEmbeddings(
+           api_key = HF_token,model_name = "BAAI/bge-base-en-v1.5"
+           )
+           
+           
+           vectorstore = Chroma.from_documents(chunking, embeddings)
+           retriever = vectorstore.as_retriever(search_type="mmr",search_kwargs={"k":3})
+           docs_rel = retriever.get_relevant_documents(query)
+           #print(docs_rel)
+           prompt = f"""
+           {query}
+           """
+           '''
+           prompt = f"""
+           <|system|>>
+           You are an AI Assistant that follows instructions extremely well.
+           </s>
+           <|user|>
+           {query}
+           </s>
+           <|assistant|>
+           """
+           '''
+           
+           
+           model = HuggingFaceHub(repo_id="HuggingFaceH4/zephyr-7b-alpha",
                         model_kwargs={"temperature":0.5,
                                         "max_new_tokens":512,
                                         "max_length":64
                                         })
-
-    qa = RetrievalQA.from_chain_type(llm=model,retriever=retriever,chain_type="stuff")
-    response = qa(prompt)
-    #print(response['result'])
-    st.write(response['result'])
+           
+           qa = RetrievalQA.from_chain_type(llm=model,retriever=retriever,chain_type="stuff")
+           response = qa(prompt)
+           #print(response['result'])
+           st.write(response['result'])
