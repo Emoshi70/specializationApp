@@ -28,21 +28,21 @@ if clicked and query:
        "https://eee.upd.edu.ph/academics/undergraduate-programs/bs-computer-engineering/"
        ]
 
-       #load the data
-       data = WebBaseLoader(URL)
-       #extract the content
-       content = data.load()
-       
-       
-       from langchain.text_splitter import RecursiveCharacterTextSplitter
-       
-       text_splitter = RecursiveCharacterTextSplitter(chunk_size=256,chunk_overlap=50)
-       chunking = text_splitter.split_documents(content)
-           os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
-       
-           embeddings = HuggingFaceInferenceAPIEmbeddings(
-               api_key = HF_token,model_name = "BAAI/bge-base-en-v1.5"
-           )
+    #load the data
+    data = WebBaseLoader(URL)
+    #extract the content
+    content = data.load()
+    
+    
+    from langchain.text_splitter import RecursiveCharacterTextSplitter
+    
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=256,chunk_overlap=50)
+    chunking = text_splitter.split_documents(content)
+       os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
+    
+       embeddings = HuggingFaceInferenceAPIEmbeddings(
+           api_key = HF_token,model_name = "BAAI/bge-base-en-v1.5"
+       )
 
 
     from langchain.vectorstores import Chroma
