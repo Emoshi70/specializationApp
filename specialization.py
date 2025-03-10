@@ -28,8 +28,8 @@ clicked = st.button("Submit", key = 1)
     #query = st.text_input("Enter text prompt related to Specializations (Click submit when ready, do not press enter): ")#"What is Bachelor’s Degree in Computer Engineering?"
 if clicked: #and query:
        URL = ["https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-computer-engineering",
-       "https://www.mapua.edu.ph/pages/academics/fully-online-programs/undergraduate/programs/online-bachelor-of-science-in-computer-engineering"
-
+       "https://www.mapua.edu.ph/pages/academics/fully-online-programs/undergraduate/programs/online-bachelor-of-science-in-computer-engineering",
+        "https://bjpcjp.github.io/pdfs/cmos_layout_sim/cmos_sim.pdf"
              ]
        
        #load the data
