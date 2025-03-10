@@ -49,10 +49,6 @@ if clicked and query:
        docs_rel = retriever.get_relevant_documents(query)
        #print(docs_rel)
        prompt = f"""
-       {query}
-       """
-       '''
-       prompt = f"""
        <|system|>>
        You are an AI Assistant that follows instructions extremely well.
        </s>
@@ -61,7 +57,6 @@ if clicked and query:
        </s>
        <|assistant|>
        """
-       '''
        
        
        model = HuggingFaceHub(repo_id="HuggingFaceH4/zephyr-7b-alpha",
