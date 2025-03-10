@@ -67,7 +67,7 @@ if clicked: #and query:
                                  "max_new_tokens":512,
                                  "max_length":64
                                  })
-       
+       os.environ["HF_HUB_OFFLINE"] = "1"
        qa = RetrievalQA.from_chain_type(llm=model,retriever=retriever,chain_type="stuff")
        response = qa(prompt)
        #print(response['result'])
