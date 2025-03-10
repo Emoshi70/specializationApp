@@ -38,7 +38,7 @@ query = st.text_input("Enter text prompt related to Specializations (Click submi
 clicked = st.button("Submit", key = 1)
 #if clicked:
     #query = st.text_input("Enter text prompt related to Specializations (Click submit when ready, do not press enter): ")#"What is Bachelor’s Degree in Computer Engineering?"
-if clicked #and query:
+if clicked: #and query:
        chromadb.api.client.SharedSystemClient.clear_system_cache()
        os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
        embeddings = HuggingFaceInferenceAPIEmbeddings(
