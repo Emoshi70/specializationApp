@@ -33,10 +33,12 @@ text_splitter = RecursiveCharacterTextSplitter(chunk_size=256,chunk_overlap=50)
 chunking = text_splitter.split_documents(content)
 
 HF_token = st.text_input("Enter Huggingface Token:", type = "password") #getpass()
+query = st.text_input("Enter text prompt related to Specializations (Click submit when ready, do not press enter): ")#"What is Bachelor’s Degree in Computer Engineering?"
+
 clicked = st.button("Submit", key = 1)
-if clicked:
-    query = st.text_input("Enter text prompt related to Specializations (Click submit when ready, do not press enter): ")#"What is Bachelor’s Degree in Computer Engineering?"
-if clicked and query:
+#if clicked:
+    #query = st.text_input("Enter text prompt related to Specializations (Click submit when ready, do not press enter): ")#"What is Bachelor’s Degree in Computer Engineering?"
+if clicked #and query:
        chromadb.api.client.SharedSystemClient.clear_system_cache()
        os.environ['HUGGINGFACEHUB_API_TOKEN'] = HF_token
        embeddings = HuggingFaceInferenceAPIEmbeddings(
