@@ -1,0 +1,651 @@
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 1 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+VISION
+Mapua University, a global leader in education, commits to advancing sustainable socio-economic growth
+through innovation, digital transformation, and lifelong education.
+MISSION
+1. The University shall provide a learning environment in order for its students to acquire the attributes that
+will make them globally competitive.
+2. The University shall engage in publishable and/or economically viable research, development and
+innovation.
+3. The University shall provide state-of-the-art solutions to problems of industries and communities
+PROGRAM EDUCATIONAL OBJECTIVES
+Within five years after graduation, graduates of the Computer Engineering program should have:
+MISSION
+1 2 3
+1. Undertaken, singly or in teams, projects that show ability to solve complex engineering problems. ü ü ü
+2. Had substantial involvement in projects that take into consideration safety, health, environmental
+concerns and the public welfare, partly through adherence to required codes and laws.
+ü ü ü
+3. Demonstrated professional success via promotions and/or positions of increasing responsibility. ü
+4. Demonstrated life-long learning via progress toward completion of an advanced degree,
+professional development/continuing education courses, or industrial training courses.
+ü ü ü
+5. Demonstrated technical expertise, professionalism, and ethics in ICT, computer hardware and
+software systems development, entrepreneurship or other related fields in the practice of computer
+engineering for the advancement of industry and society.
+ü ü
+ABET Student Outcomes
+Program Educational
+Objectives
+1 2 3 4 5
+1 An ability to identify, formulate, and solve complex engineering problems by applying principles of
+engineering, science, and mathematics ü ü ü
+2 An ability to apply engineering design to produce solutions that meet specified needs with consideration of
+public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors ü ü ü ü
+3 An ability to communicate effectively with a range of audiences ü ü ü
+4 An ability to recognize ethical and professional responsibilities in engineering situations and make informed
+judgments, which must consider the impact of engineering solutions in global, economic, environmental,
+and societal contexts
+ü ü ü ü
+5 An ability to function effectively on a team whose members together provide leadership, create a
+collaborative and inclusive environment, establish goals, plan tasks, and meet objectives ü ü ü ü ü
+6 An ability to develop and conduct appropriate experimentation, analyze and interpret data, and use
+engineering judgment to draw conclusions ü ü ü ü
+7 An ability to acquire and apply new knowledge as needed, using appropriate learning strategies. ü ü ü ü ü
+PTC and CHED Student Outcomes
+Program Educational
+Objectives
+1 2 3 4 5
+A An ability to apply knowledge of mathematics and science to solve complex engineering problems ü ü ü
+B An ability to design and conduct experiments, as well as to analyze and interpret from data ü ü ü ü
+C An ability to design a system, component, or process to meet desired needs within realistic constraints such
+as economic, environmental, social, political, ethical, health and safety, manufacturability, and sustainability,
+in accordance with standards;
+ü ü ü ü
+D An ability to function on multidisciplinary teams ü ü ü ü
+E An ability to identify, formulate, and solve complex engineering problems ü ü ü
+F An understanding of professional and ethical responsibility ü ü ü ü
+G An ability to communicate effectively ü ü ü
+H The broad education necessary to understand the impact of engineering solutions in the global and societal
+context ü ü ü
+I A recognition of the need for, and an ability to engage in life-long learning ü ü
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 2 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+J A knowledge of contemporary issues ü ü ü ü
+K An ability to use the techniques, skills, and modern engineering tools necessary for engineering practice ü ü ü
+L Knowledge and understanding of engineering and management principles as a member and leader in a
+team, to manage projects in multidisciplinary environments ü
+M Understand at least one specialized field of Computer Engineering practice ü ü ü
+COURSE SYLLABUS
+1. Course Code: CPE160P
+2. Course Title: Embedded System and Design
+3. Pre-requisite: CPE109/CPE109L
+4. Co-requisite: CPE108L
+5. Credit: 3 units / 7.5 hours per week
+6. Course Description: This course is designed to introduce to the students a unified view of software and
+hardware in designing embedded systems. The discussions include topics on microcontrollers, memory
+subsystems and the architecture of embedded systems. The course will also include programming of
+microcontroller.
+7. Course Outcomes (COs) and Relationship to Program Educational Objectives
+Course Outcomes
+After completing the
+course, the student must
+be able to:
+Student Outcomes*
+ABET
+Student Outcomes*
+PTC and CHED
+1 2 3 4 5 6 7 a b c d e f g h i j k l m
+Module 1
+1. Apply, analyze, and
+demonstrate
+implementation of
+control to the
+input/output
+peripherals.
+I I I I I I I I
+Module 2
+2. Apply, analyze
+and demonstrate
+simple application
+of embedded
+system using
+sensors and
+transducers.
+I I I I I I I I
+Module 3
+3. Design an
+embedded system
+application
+I I I I I I I I
+• Level: I – Introduced; R – Reinforced; D – Demonstrate
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 3 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+8. Outcome-Based Modular Course Design
+Course
+Title
+Credit
+Units
+Module
+Code Module Title Lec
+Hrs.
+Lab
+Hrs. Weeks Credit
+Units
+Pre-
+requisites
+May be
+taken if
+remedial
+Embedded
+System
+and
+Design
+3
+CPE160PM1
+Digital Input
+and Output
+Interface
+12 18 4 1 CPE109/
+CPE109L Yes
+CPE160PM2
+Analog to
+Digital
+Converter
+12 18 4 1 CPE160PM1 Yes
+CPE160PM3
+Design of
+Embedded
+System
+9 13.5 3 1 CPE160PM2 Yes
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 4 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+9. Course Coverage
+Week Topic
+Session TLA AT Learning Objects CO
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+Module 1: Digital Output Interface
+1 Orientation
+Hardware
+Requirement
+Discussion
+Software
+Requirement
+Discussion
+1 Lecture/
+Discussion/
+Laboratory
+Experiment
+EXP1 Syllabus, Course Policy,
+Schedule, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+CO1
+2 Lecture/
+Discussion
+Reading
+Assignment
+CW1
+MVL, Lecture
+Notes/PDF/PPT
+2 Introduction
+to Embedded
+Systems
+Input/Output
+Interface
+3 Lecture/
+Discussion
+Laboratory
+Experiment
+EXP2 Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO1
+4 Lecture/
+Discussion
+CW2 MVL, Lecture
+Notes/PDF/PPT
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 5 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+Week Topic
+Session TLA AT Learning Objects CO
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+3 Transducers 5 Lecture/
+Discussion/
+Laboratory
+Experiment
+EXP3
+Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO1
+6 Lecture/
+Discussion
+Quiz 1 MVL, Lecture
+Notes/PDF/PPT
+4 Sensors 7 Lecture/
+Discussion/
+Laboratory
+Experiment
+EXP4
+ME1
+Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO1
+8 Lecture/
+Discussion
+MVL, Lecture
+Notes/PDF/PPT
+Module 2: Analog to Digital Converter
+5 Analog to
+Digital
+Converter
+(ADC)
+9 Lecture/
+Discussion/
+Laboratory
+Experiment
+EXP5
+Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO2
+10 Lecture/
+Discussion
+Reading
+Assignment
+CW3
+MVL, Lecture
+Notes/PDF/PPT
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 6 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+Week Topic
+Session TLA AT Learning Objects CO
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+6 Digital to
+Analog
+Converter
+(DAC)
+11 Lecture/
+Discussion
+Laboratory
+Experiment
+EXP6 Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO2
+12 Lecture/
+Discussion
+Reading
+Assignment
+CW4
+MVL, Lecture
+Notes/PDF/PPT
+7 Filters 13 Lecture/
+Discussion/
+Laboratory
+Experiment
+EXP7 Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO2
+14 Lecture/
+Discussion Quiz 2 Lecture Notes/PDF/PPT
+8 Embedded
+System
+Application
+15 Forum/Discussion
+Board
+Project
+Proposal
+MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+CO2
+16 Lecture/
+Discussion ME2 Lecture Notes/PDF/PPT
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 7 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+Week Topic
+Session TLA AT Learning Objects CO
+F2F
+(onsite)
+Synchronous
+Online
+Asynchronous
+Online
+F2F
+(onsite)
+Synchronous
+Online
+Asynchronous
+Online
+Module 3: Design of Embedded System
+9 Types/Classifications
+of Embedded
+System
+16 Lecture/Discussion PR1 (written) MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+CO3
+17 Lecture/Discussion
+Board
+PR1 (video
+demonstration)
+CW5
+MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+10 Components of
+Embedded System
+Block Diagram of
+Embedded System
+Features of
+Embedded System
+18 Lecture/Discussion PR2 (written) MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+CO3
+19 Lecture/Discussion PR2 (video
+demonstration)
+Quiz 3
+MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+11 Implementation and
+Application of
+Embedded System
+20 Defense
+Project OE
+MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+CO3
+21 Lecture/
+Discussion ME3 Lecture
+Notes/PDF/PPT
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 8 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+10. Lifelong-Learning Opportunities
+It will allow students to adapt to the advancement in the basic application and design of the embedded
+system.
+11. Contribution of Course to Meeting the Professional Component
+Engineering Topics – 100%
+12. Prescribed E-Book and Courseware
+Embedded Microcomputer Systems: Real Time Interfacing
+13. Other References and Educational Resources
+METIS (Mapua E-Text Infinity Solution)
+Enoch O. Hwang, Digital Logic and Microprocessor Design with Interfacing, 2nd Edition, CENGAGE
+Learning US, 2018. ISBN: 978-1-305-85945-6
+14. Course Evaluation
+Student performance will be rated based on the following:
+Module 1
+Assessment Tasks Weight Minimum Average for
+Satisfactory
+Performance
+CO 1
+Course Work 1 7.00 4.90
+Course Work 2 10.00 7.00
+Quiz 1 15.00 10.50
+Module Exam 1 20.00 14.00
+Experiment 1 12.00 8.40
+Experiment 2 12.00 8.40
+Experiment 3 12.00 8.40
+Experiment 4 12.00 8.40
+Total 100% 70%
+Module 2:
+Assessment Tasks Weight Minimum Average for
+Satisfactory
+Performance
+CO 2
+Course Work 3 7.00 4.90
+Course Work 4 7.00 4.90
+Quiz 2 15.00 10.50
+Module Exam 2 25.00 17.50
+Experiment 5 12.00 8.40
+Experiment 6 12.00 8.40
+Experiment 7 12.00 8.40
+Project Proposal 10.00 7.00
+Total 100% 70%
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 9 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+Module 3:
+Assessment Tasks Weight Minimum Average for
+Satisfactory
+Performance
+CO 3
+Course Work 5 5.00 3.50
+Quiz 3 10.00 7.00
+Module Exam 3 20.00 14.00
+Progress Report 1 10.00 7.00
+Progress Report 1 10.00 7.00
+Project 30.00 21.00
+Oral Examination 15.00 10.50
+Total 100% 70%
+The module grades will correspond to the weighted average scores shown below
+Average Module
+Grade Average Module
+Grade
+0.00 – 34.99 5.00 82.00 - 84.99 2.00
+35.00 – 69.99 IP 85.00 - 87.99 1.75
+70.00 - 72.99 3.00 88.00 - 91.99 1.50
+73.00 - 75.99 2.75 92.00 - 95.99 1.25
+76.00 - 78.99 2.50 96.00 - 100.00 1.00
+79.00 - 81.99 2.25
+For approved
+medical reasons
+only
+I
+The module grade average will be the weighted average of the module grades based on the credit units
+of each module:
+Module Grade Average=
+credit unit( )i module grade( )i
+i=1
+no of modules
+∑
+total credit units of the course
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 10 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+The course grade will be determined from the module grade average using the table below:
+Module Grade Average
+(MGA) Course Grade
+1.0 ≤ MGA ≤ 1.10 1.0
+1.10 < MGA ≤ 1.40 1.25
+1.40 < MGA ≤ 1.60 1.5
+1.60 < MGA ≤ 1.85 1.75
+1.85 < MGA ≤ 2.10 2.0
+2.10 < MGA ≤ 2.40 2.25
+2.40 < MGA ≤ 2.60 2.5
+2.60 < MGA ≤ 2.85 2.75
+2.85 < MGA ≤ 3.0 3.0
+IP IP
+5.00 5.00
+15. Other Course Policies
+a. Attendance
+According to CHED policy, total number of absences by the students should not be more than
+20% of the total number of meetings or 9 hrs for a three-unit-course. Students incurring more
+than 9 hours of unexcused absences automatically gets a failing grade regardless of class
+standing
+b. Guided Learning Output
+Guided learning outputs through various worksheets in each clusters of topics are assigned to
+the students. Problems encountered in the worksheets will be discussed in class.
+c. Written Examination
+Exams will be given face to face for Tri-X, Bio-X and Blended modes and online for UOX.
+d. Course Portfolio
+Selected guided learning outputs and examinations are to be compiled and collected before the
+end of the term. The selection is based on statistical data gathering (lowest, median, highest).
+Guided learning outputs and examinations with marks lowest, median, and highest must be
+photocopied and must be given back to the instructor for course portfolio keeping.
+e. Language of Instruction
+Lectures, discussion, and documentation will be in English. Written and spoken work may receive
+a lower mark if it is, in the opinion of the instructor, deficient in English.
+f. Dress and Grooming Codes
+All of us have been instructed on the Dress and Grooming Codes of the University.
+g. Academic Integrity Policy
+It is the student’s responsibility to refrain from infractions of academic integrity, from conduct that
+may lead to suspicion of such infractions, and from conduct that aids others in such infractions.
+Any of the following sanctions may be imposed to any student who is found guilty of committing
+online academic dishonesty:
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 11 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+a. Failed mark in the course.
+b. Suspension for a period of less than one term, with or without community service.
+c. Suspension for a period of one term or more, with or without community service.
+d. Non-readmission to the University.
+e. Dismissal from the University.
+f. Expulsion.
+The following are considered academic dishonesty:
+1. Using another MyMapua email address to login to any platform (such as BlackBoard and
+Coursera) with or without permission.
+2. Asking or hiring someone else to do their exams, homework, Coursera course, papers, projects
+or other academic requirements.
+3. Recording and saving copies of exam questions or answers, or answer keys for distribution.
+4. Receiving copies of exam questions or answers, or answer keys to an exam from someone
+who has already taken it.
+5. Plagiarizing or the unethical act of stealing the thoughts of another without proper citation or
+reference, acquiring information from the Internet without acknowledging the author, copying
+from another student’s work without permission and submitting it as own work.
+6. Massive, pre-meditated, organized online cheating using instant messaging/email during a quiz
+or exam.
+7. Any form of dishonesty in peer-reviewed assignments/submissions (e.g. Coursera peer-graded
+submissions).
+8. Engaging in any activities that will dishonestly improve results, or dishonestly improve or
+damage the results of others.
+9. Any other form of dishonesty or cheating in any assessment or course requirement.
+All students who will violate the Academic Integrity Policy of the university will be given zero mark
+for the exam or for the activity and will be given a failing grade for the course. He or she will also
+be referred to the Prefect of Discipline for appropriate sanction.
+h. Consultation Schedule
+Consultation schedules with the Professor are posted outside the EECE Faculty room and in the
+School web-page (http://eece.mapua.edu.ph). It is recommended that the student first set an
+appointment to confirm the instructor’s availability.
+i. Appeal system
+All appeals on student assessment must be made by the concerned student within one week after
+the return of the assessed student work.
+In case the student is not satisfied, no later than one week after the decision of the faculty has
+been made, he can elevate the appeal to the program chair or dean in case there is no program
+chair. The decision of the program chair or dean is final. The faculty must abide with the moderated
+decision of the program chair or dean.
+j. Use of generative AI
+It is expected that students will adhere to generally accepted standards of academic honesty,
+including but not limited to refraining from cheating, plagiarizing, misrepresenting one’s work,
+and/or inappropriately collaborating. This includes the use of generative AI tools that have not
+been cited or documented or authorized. Students will also be expected to adhere to the
+prescribed professional and ethical standards of the profession/discipline for which the student is
+preparing. Any student who engages in academic dishonesty or who violates the professional and
+ethical standards for the profession/discipline for which the students.
+School of Electrical, Electronics
+and Computer Engineering
+Course Code and Title
+CPE160P
+Embedded System and Design
+Curriculum:
+Page 12 of 12
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan August 2023 August 2023
+16. Course Materials to be Provided to Students
+15.1. Syllabus
+15.2. Detailed Schedule
+17. Committee Members
+Carlos Hortinela IV
+Cyrel Manlises
+Rafael Maramba
+Rosemarie Pellegrino
+Isagani Villamor
+Jocelyn Villaverde
