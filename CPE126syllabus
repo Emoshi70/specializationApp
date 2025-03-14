@@ -1,0 +1,529 @@
+Course Code and Title
+CPE162P-4
+Embedded System with IoT
+Curriculum:
+Page 1 of 10
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan May 2024 May 2024
+VISION
+Mapua University, a global leader in education, commits to advancing sustainable socio-economic growth
+through innovation, digital transformation, and lifelong education.
+MISSION
+1. The University shall provide a learning environment in order for its students to acquire the attributes that
+will make them globally competitive.
+2. The University shall engage in publishable and/or economically viable research, development, and
+innovation.
+3. The University shall provide state-of-the-art solutions to problems of industries and communities.
+PROGRAM EDUCATIONAL OBJECTIVES
+Within five years after graduation, graduates of the Computer Engineering program should have:
+MISSION
+1 2 3
+1. Undertaken, singly or in teams, projects that show ability to solve complex engineering problems. ✓ ✓ ✓
+2. Had substantial involvement in projects that take into consideration safety, health, environmental
+concerns and the public welfare, partly through adherence to required codes and laws.
+✓ ✓ ✓
+3. Demonstrated professional success via promotions and/or positions of increasing responsibility. ✓
+4. Demonstrated life-long learning via progress toward completion of an advanced degree,
+professional development/continuing education courses, or industrial training courses.
+✓ ✓ ✓
+5. Demonstrated technical expertise, professionalism, and ethics in ICT, computer hardware and
+software systems development, entrepreneurship, or other related fields in the practice of computer
+engineering for the advancement of industry and society.
+✓ ✓
+ABET Student Outcomes
+Program Educational
+Objectives
+1 2 3 4 5
+1 An ability to identify, formulate, and solve complex engineering problems by applying principles of
+engineering, science, and mathematics ✓ ✓ ✓
+2 An ability to apply engineering design to produce solutions that meet specified needs with consideration of
+public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors ✓ ✓ ✓ ✓
+3 An ability to communicate effectively with a range of audiences ✓ ✓ ✓
+4 An ability to recognize ethical and professional responsibilities in engineering situations and make informed
+judgments, which must consider the impact of engineering solutions in global, economic, environmental,
+and societal contexts
+✓ ✓ ✓ ✓
+5 An ability to function effectively on a team whose members together provide leadership, create a
+collaborative and inclusive environment, establish goals, plan tasks, and meet objectives ✓ ✓ ✓ ✓ ✓
+6 An ability to develop and conduct appropriate experimentation, analyze and interpret data, and use
+engineering judgment to draw conclusions ✓ ✓ ✓ ✓
+7 An ability to acquire and apply new knowledge as needed, using appropriate learning strategies. ✓ ✓ ✓ ✓ ✓
+PTC and CHED Student Outcomes
+Program Educational
+Objectives
+1 2 3 4 5
+A An ability to apply knowledge of mathematics and science to solve complex engineering problems ✓ ✓ ✓
+B An ability to design and conduct experiments, as well as to analyze and interpret from data ✓ ✓ ✓ ✓
+C An ability to design a system, component, or process to meet desired needs within realistic constraints such
+as economic, environmental, social, political, ethical, health and safety, manufacturability, and sustainability,
+in accordance with standards;
+✓ ✓ ✓ ✓
+D An ability to function on multidisciplinary teams ✓ ✓ ✓ ✓
+E An ability to identify, formulate, and solve complex engineering problems ✓ ✓ ✓
+F An understanding of professional and ethical responsibility ✓ ✓ ✓ ✓
+G An ability to communicate effectively ✓ ✓ ✓
+H The broad education necessary to understand the impact of engineering solutions in the global and societal
+context ✓ ✓ ✓
+I A recognition of the need for, and an ability to engage in life-long learning ✓ ✓
+J A knowledge of contemporary issues ✓ ✓ ✓ ✓
+Course Code and Title
+CPE162P-4
+Embedded System with IoT
+Curriculum:
+Page 2 of 10
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan May 2024 May 2024
+K An ability to use the techniques, skills, and modern engineering tools necessary for engineering practice ✓ ✓ ✓
+L Knowledge and understanding of engineering and management principles as a member and leader in a
+team, to manage projects in multidisciplinary environments ✓
+M Understand at least one specialized field of Computer Engineering practice ✓ ✓ ✓
+COURSE SYLLABUS
+1. Course Code: CPE162P-4
+2. Course Title: Embedded System with IoT
+3. Pre-requisite: CPE161P-4
+4. Co-requisite: NONE
+5. Credit: 3 units / 7.5 hours per week
+6. Course Description: This course will cover different applications of embedded system. It includes topics
+on embedded system development and Internet of Things. Actual hands-on accompanies this course.
+7. Course Outcomes (COs) and Relationship to Program Educational Objectives
+Course Outcomes
+After completing the
+course, the student must
+be able to:
+Student Outcomes*
+ABET
+Student Outcomes*
+PTC and CHED
+1 2 3 4 5 6 7 a b c d e f g h i j k l m
+1. Analyze
+implementation of
+IoT in embedded
+systems
+D D D D D D D D
+2. Apply, analyze
+and demonstrate
+hardware and
+software
+components of IoT
+in embedded
+systems
+D D D D D D D D
+3. Design an
+embedded system
+with IoT
+application
+D D D D D D D D
+• Level: I – Introduced; R – Reinforced; D – Demonstrate
+Course Code and Title
+CPE162P-4
+Embedded System with IoT
+Curriculum:
+Page 3 of 10
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan May 2024 May 2024
+8. Course Coverage
+Week Topic
+Session TLA AT Learning Objects CO
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+1 Orientation
+Brief discussion
+and
+familiarization
+with IoT in
+Embedded
+System
+1 Lecture/
+Discussion/
+Laboratory
+Experiment
+EXP1 Syllabus, Course Policy,
+Schedule, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+CO1
+2 Lecture/
+Discussion
+Reading
+Assignment
+CW1
+MVL, Lecture
+Notes/PDF/PPT
+2 Introduction to
+Internet of
+Things
+3 Lecture/
+Discussion
+Laboratory
+Experiment
+EXP2 Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO1
+4 Lecture/
+Discussion
+CW2 MVL, Lecture
+Notes/PDF/PPT
+Course Code and Title
+CPE162P-4
+Embedded System with IoT
+Curriculum:
+Page 4 of 10
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan May 2024 May 2024
+Week Topic
+Session TLA AT Learning Objects CO
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+3 IoT: People
+connecting
+with Things
+IoT
+Applications
+5 Lecture/
+Discussion/
+Laboratory
+Experiment
+EXP3
+Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO1
+6 Lecture/
+Discussion
+Quiz 1 MVL, Lecture
+Notes/PDF/PPT
+4 Evolution of
+the world
+wide web
+7 Lecture/
+Discussion/
+Laboratory
+Experiment
+EXP4
+ME1
+Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO1
+8 Lecture MVL, Lecture
+Notes/PDF/PPT
+5 Embedded
+System and
+IoT Devices
+9 Lecture/
+Discussion/
+Laboratory
+Experiment
+EXP5
+Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO2
+10 Lecture Reading
+Assignment
+CW3
+MVL, Lecture
+Notes/PDF/PPT
+Course Code and Title
+CPE162P-4
+Embedded System with IoT
+Curriculum:
+Page 5 of 10
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan May 2024 May 2024
+Week Topic
+Session TLA AT Learning Objects CO
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+6 Embedded
+System and
+IoT Hardware
+11 Lecture/
+Discussion
+Laboratory
+Experiment
+EXP6 Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO2
+12 Lecture/
+Discussion
+Reading
+Assignment
+CW4
+MVL, Lecture
+Notes/PDF/PPT
+7 Embedded
+System and
+IoT Software
+13 Lecture/
+Discussion/
+Laboratory
+Experiment
+EXP7 Lecture Notes/PDF/PPT,
+Laboratory Manual
+CO2
+14 Lecture/
+Discussion Quiz 2 Lecture Notes/PDF/PPT
+8 Embedded
+System and
+IoT
+Operating
+System
+15 Forum/Discussion
+Board
+Project
+Proposal
+MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+CO2
+16 Lecture/
+Discussion ME2 Lecture Notes/PDF/PPT
+Course Code and Title
+CPE162P-4
+Embedded System with IoT
+Curriculum:
+Page 6 of 10
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan May 2024 May 2024
+Week Topic
+Session TLA AT Learning Objects CO
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+F2F (onsite) Synchronous
+Online
+Asynchronous
+Online
+9 Introduction to
+Networking and
+Internet Protocol
+16 Lecture/Discussion PR1 (written) MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+CO3
+17 Lecture/Discussion
+Board
+PR1 (video
+demonstration)
+CW5
+MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+10 Concept of Mobile
+Ad Hoc Network
+(MANET)
+18 Lecture/Discussion PR2 (written) MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+CO3
+19 Lecture/Discussion PR2 (video
+demonstration)
+Quiz 3
+MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+11 Design of Embedded
+System with IoT
+20 Defense
+Project OE
+MVL, Lecture
+Notes/PDF/PPT,
+Laboratory Manual
+CO3
+21 Lecture/ Discussion ME3 Lecture
+Notes/PDF/PPT
+Course Code and Title
+CPE162P-4
+Embedded System with IoT
+Curriculum:
+Page 7 of 10
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan May 2024 May 2024
+9. Lifelong-Learning Opportunities
+It will allow students to adapt to the advancement in the basic application and design of the embedded
+system.
+10. Contribution of Course to Meeting the Professional Component
+Engineering Topics – 100%
+11. Prescribed E-Book and Courseware
+Embedded Microcomputer Systems: Real Time Interfacing
+12. Other References and Educational Resources
+METIS (Mapua E-Text Infinity Solution)
+Enoch O. Hwang, Digital Logic and Microprocessor Design with Interfacing, 2nd Edition, CENGAGE
+Learning US, 2018. ISBN: 978-1-305-85945-6
+13. Course Evaluation
+Student performance will be rated based on the following:
+Assessment Tasks Weight Minimum Average for
+Satisfactory
+Performance
+CO 1 Coursework (experiments) 30% 21%
+CO 2 Quizzes (assignment & quizzes) 30% 21%
+CO 3 Final exam (proposal, progress report, project oral exam) 40% 28%
+Total 100% 70%
+Assessment Tasks Weight Minimum Average for
+Satisfactory
+Performance
+CO 1
+Assignment 1 3 2.1
+Quiz 1 7 4.9
+Experiment 1 4 2.8
+Experiment 2 4 2.8
+Experiment 3 4 2.8
+Experiment 4 4 2.8
+CO 2 Assignment 2 3 2.1
+Quiz 2 7 4.9
+Experiment 5 4 2.8
+Experiment 6 5 3.5
+Experiment 7 5 3.5
+CO 3 Assignment 3 3 2.1
+Quiz 3 7 4.9
+Project Proposal 4 2.8
+Progress report 1 4 2.8
+Progress report 2 4 2.8
+Oral Exam 10 7
+Project 18 12.6
+Total 100% 70%
+Course Code and Title
+CPE162P-4
+Embedded System with IoT
+Curriculum:
+Page 8 of 10
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan May 2024 May 2024
+The module grades will correspond to the weighted average scores shown below:
+Average Module
+Grade Average Module
+Grade
+0.00 – 69.99 5.00 82.00 - 84.99 2.00
+70.00 - 72.99 3.00 85.00 - 87.99 1.75
+73.00 – 75.99 2.75 88.00 - 91.99 1.50
+76.00 - 78.99 2.5 92.00 - 95.99 1.25
+79.00 - 81.99 2.25 96.00 - 100.00 1.00
+For approved
+medical reasons
+only
+I
+14. Other Course Policies
+a. Attendance
+According to CHED policy, total number of absences by the students should not be more than
+20% of the total number of meetings or 9 hrs for a three-unit-course. Students incurring more
+than 9 hours of unexcused absences automatically gets a failing grade regardless of class
+standing.
+b. Guided Learning Output
+Guided learning outputs through various worksheets in each cluster of topics are assigned to the
+students. Problems encountered in the worksheets will be discussed in class.
+c. Written Examination
+Exams will be given face to face for Tri-X, Bio-X and Blended modes and online for UOX.
+d. Course Portfolio
+Selected guided learning outputs and examinations are to be compiled and collected before the
+end of the term. The selection is based on statistical data gathering (lowest, median, highest).
+Guided learning outputs and examinations with marks lowest, median, and highest must be
+photocopied and must be given back to the instructor for course portfolio keeping.
+e. Language of Instruction
+Lectures, discussion, and documentation will be in English. Written and spoken work may receive
+a lower mark if it is, in the opinion of the instructor, deficient in English.
+f. Dress and Grooming Codes
+All of us have been instructed on the Dress and Grooming Codes of the University.
+Course Code and Title
+CPE162P-4
+Embedded System with IoT
+Curriculum:
+Page 9 of 10
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan May 2024 May 2024
+g. Academic Integrity Policy
+It is the student’s responsibility to refrain from infractions of academic integrity, from conduct that
+may lead to suspicion of such infractions, and from conduct that aids others in such infractions.
+Any of the following sanctions may be imposed to any student who is found guilty of committing
+online academic dishonesty:
+a. Failed mark in the course.
+b. Suspension for a period of less than one term, with or without community service.
+c. Suspension for a period of one term or more, with or without community service.
+d. Non-readmission to the University.
+e. Dismissal from the University.
+f. Expulsion.
+The following are considered academic dishonesty:
+1. Using another MyMapua email address to login to any platform (such as BlackBoard and
+Coursera) with or without permission.
+2. Asking or hiring someone else to do their exams, homework, Coursera course, papers,
+projects, or other academic requirements.
+3. Recording and saving copies of exam questions or answers, or answer keys for distribution.
+4. Receiving copies of exam questions or answers, or answer keys to an exam from someone
+who has already taken it.
+5. Plagiarizing or the unethical act of stealing the thoughts of another without proper citation or
+reference, acquiring information from the Internet without acknowledging the author, copying
+from another student’s work without permission and submitting it as own work.
+6. Massive, pre-meditated, organized online cheating using instant messaging/email during a quiz
+or exam.
+7. Any form of dishonesty in peer-reviewed assignments/submissions (e.g. Coursera peer-graded
+submissions).
+8. Engaging in any activities that will dishonestly improve results, or dishonestly improve or
+damage the results of others.
+9. Any other form of dishonesty or cheating in any assessment or course requirement.
+All students who will violate the Academic Integrity Policy of the university will be given zero mark
+for the exam or for the activity and will be given a failing grade for the course. He or she will also
+be referred to the Prefect of Discipline for appropriate sanction.
+h. Consultation Schedule
+Consultation schedules with the Professor are posted outside the EECE Faculty room and in the
+school webpage (http://eece.mapua.edu.ph). It is recommended that the student first set an
+appointment to confirm the instructor’s availability.
+i. Appeal system
+All appeals on student assessment must be made by the concerned student within one week after
+the return of the assessed student work.
+In case the student is not satisfied, no later than one week after the decision of the faculty has
+been made, he can elevate the appeal to the program chair or dean in case there is no program
+chair. The decision of the program chair or dean is final. The faculty must abide with the moderated
+decision of the program chair or dean.
+Course Code and Title
+CPE162P-4
+Embedded System with IoT
+Curriculum:
+Page 10 of 10
+2018-2023
+Prepared by: Approved by: Revision Date: Effectivity Date:
+Cyrel O. Manlises Noel B. Linsangan May 2024 May 2024
+j. Use of generative AI
+It is expected that students will adhere to generally accepted standards of academic honesty,
+including but not limited to refraining from cheating, plagiarizing, misrepresenting one’s work,
+and/or inappropriately collaborating. This includes the use of generative AI tools that have not
+been cited or documented or authorized. Students will also be expected to adhere to the
+prescribed professional and ethical standards of the profession/discipline for which the student is
+preparing. Any student who engages in academic dishonesty or who violates the professional and
+ethical standards for the profession/discipline for which the students.
+15. Course Materials to be Provided to Students
+15.1. Syllabus
+15.2. Detailed Schedule
+16. Committee Members
+Carlos Hortinela IV
+Cyrel Manlises
+Rafael Maramba
+Rosemarie Pellegrino
+Sandra M. Tirol
+Ernesto M. Vergara
+Isagani Villamor
+Jocelyn Villaverde
