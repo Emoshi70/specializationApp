@@ -30,7 +30,8 @@ if clicked: #and query:
        URL = ["https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-computer-engineering",
        "https://www.mapua.edu.ph/pages/academics/fully-online-programs/undergraduate/programs/online-bachelor-of-science-in-computer-engineering",
               "https://www.abebooks.com/9780470881323/CMOS-Circuit-Design-Layout-Simulation-0470881321/plp",
-              "https://github.com/Emoshi70/specializationApp/blob/main/CPE126syllabus"
+              "https://github.com/Emoshi70/specializationApp/blob/main/CPE126syllabus",
+              "https://github.com/Emoshi70/specializationApp/blob/main/CPE1260P"
              ]
        
        #load the data
