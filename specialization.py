@@ -31,7 +31,9 @@ if clicked: #and query:
        "https://www.mapua.edu.ph/pages/academics/fully-online-programs/undergraduate/programs/online-bachelor-of-science-in-computer-engineering",
               "https://www.abebooks.com/9780470881323/CMOS-Circuit-Design-Layout-Simulation-0470881321/plp",
               "https://github.com/Emoshi70/specializationApp/blob/main/CPE126syllabus",
-              "https://github.com/Emoshi70/specializationApp/blob/main/CPE1260P"
+              "https://github.com/Emoshi70/specializationApp/blob/main/CPE1260P",
+              "https://github.com/Emoshi70/specializationApp/blob/main/Laplante_Real_Time_Systems.txt",
+              "https://github.com/Emoshi70/specializationApp/blob/main/Laplante_Real_Time_Systems.txt"
              ]
        
        #load the data
