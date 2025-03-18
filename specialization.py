@@ -33,7 +33,9 @@ if clicked: #and query:
               "https://github.com/Emoshi70/specializationApp/blob/main/CPE126syllabus",
               "https://github.com/Emoshi70/specializationApp/blob/main/CPE1260P",
               "https://github.com/Emoshi70/specializationApp/blob/main/Laplante_Real_Time_Systems.txt",
-              "https://github.com/Emoshi70/specializationApp/blob/main/Laplante_Real_Time_Systems.txt"
+              "https://github.com/Emoshi70/specializationApp/blob/main/Laplante_Real_Time_Systems.txt",
+              "https://github.com/Emoshi70/specializationApp/blob/main/cyber_compilation.txt",
+              "https://github.com/Emoshi70/specializationApp/blob/main/compilation_spec_embedded_systems.txt"
              ]
        
        #load the data
